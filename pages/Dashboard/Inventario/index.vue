@@ -1,18 +1,16 @@
 <template>
     <div>
         <NavBarMenu/>
-        <Dashboard/>
+        <Inventario/>
     </div>
 </template>
-
 <script>
-import Dashboard from "~/components/Dashboard/Panel.vue";
+import Inventario from "~/components/Dashboard/Inventario.vue";
 import NavBarMenu from "~/components/Dashboard/NavBarMenu.vue";
-
 export default {
     components: {
-        Dashboard,
-        NavBarMenu
-    }
+    NavBarMenu,
+    Inventario
+}
 }
 </script>
